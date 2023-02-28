@@ -7,7 +7,8 @@ from kivy.uix.label import Label
 from kivy.uix.filechooser import FileChooserListView
 from tkinter import filedialog
 
-# holas dias, toinen versio.
+# holas dias. Tämä on sitten kolmonen.
+
 class PDFtoTextConverter(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
